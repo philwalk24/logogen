@@ -21,7 +21,7 @@
 ## Description
 
 This project will ask the user a series of questions using the inquirer package that when answered, will generate a .svg file containing a shape and possibly some
-letters. The purpose of this program is to quickly generate a logo for a potential company. It is not quite done and still needs some work, which I will update this week.
+letters. The purpose of this program is to quickly generate a logo for a potential company. It is not quite done and still needs some work, but it does pretty much what the USER STORY asks. I will definitley be resubmitting when this is graded.
 
 ## Installation
 
@@ -33,7 +33,7 @@ When its installed, you can run the project by running in the terminal: "node in
 
 ## Testing
 
-shapes.testing.js is the testing file using the jest dependancy. It tests the properties of the shapes.
+shapes.test.js is the testing file using the jest dependancy. It tests the properties of the shapes. It is kinda barebones, but the way you use it is you go into the "stuff" directory and you run "npm test" in the console. You need to make sure your "package.json" contains this "test":"jest" in the scripts.
 
 ## Contributing
 
