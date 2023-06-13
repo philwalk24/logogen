@@ -1,3 +1,7 @@
+// I had an issue where when all my classes were in
+// the same file it would only draw squares. I was able
+// to fix this by putting each shape class in its own file.
+// I have no idea why this fixed it.
 class Circle
 {
     constructor(color="")

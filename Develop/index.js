@@ -8,12 +8,9 @@ var a;
 
 let shape, shapeColor, letters, textColor;
 let newLogo;
-// skeleton that will add the logo to the svg element
-//let shapeSkel = `<svg width="300" height="200">${newLogo}</svg>`;
-// var x = new Circle("blue");
-// x.addText("aaa","blue");
-// console.log(x);
+
 function init() {
+    // user input using inquirer package
 inquirer.prompt([
     {name: 'b1',
     message: "enter up to 3 characters: "
@@ -34,8 +31,8 @@ inquirer.prompt([
     
     textColor = answer.b2;
     shapeColor = answer.b4;
-    console.log(shapeColor);
-    console.log(answer.b3);
+   
+    // determines which shape you want, easiest to do with numbers
     if(answer.b3 == 1)
     {
         shape = new Square(shapeColor);
@@ -59,8 +56,9 @@ inquirer.prompt([
 })
 .then((answer) =>{
     newLogo = shape.render();
+    // the 300x200 is specified in the module 10 challenge syllabus
     const finalL = `<svg width="300" height="200">${newLogo}</svg>`;
-    console.log(finalL);
+ 
     fs.writeFile('NEWLOGO.svg',finalL, err=>{
     
     })
@@ -68,4 +66,5 @@ inquirer.prompt([
         
 })
 }
+// runs everything
 init();
