@@ -25,7 +25,7 @@ letters. The purpose of this program is to quickly generate a logo for a potenti
 
 ## Installation
 
-First, you need to clone the github repo. Then, in the same folder as "index.js", you need to run two commands: "npm i install" and "npm i inquirer@^8.0.0". You will lastly need "npm i jest" for testing. Then the project can be ran. If you need more help, watch this video: 
+First, you need to clone the github repo. Then, in the same folder as "index.js", you need to run two commands: "npm i install" and "npm i inquirer@^8.0.0". You will lastly need "npm i jest" for testing. Then the project can be ran. If you need more help, watch this video: https://drive.google.com/file/d/1hnIutoMdstl5A0R3tiUqsN6FwxLHGpBl/view
 
 ## Usage
 
